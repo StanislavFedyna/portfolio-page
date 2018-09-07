@@ -1,0 +1,128 @@
+body {
+  overflow-x: hidden;
+}
+
+.navbar .nav-link {
+  font-size: 14px;
+  text-transform: uppercase;
+  padding-left: 1em !important;
+  padding-right: 1em !important;
+}
+
+.carousel-item {
+  height: 450px;
+}
+
+.carousel-image-1 {
+  background: url("../img/index/slider-design.jpg");
+  background-size: cover;
+}
+
+.carousel-image-2 {
+  background: url("../img/index/slider-perform.jpg");
+  background-size: cover;
+}
+
+.carousel-image-3 {
+  background: url("../img/index/slider-security.jpg");
+  background-size: cover;
+}
+
+.fa {
+  font-size: 55px;
+}
+
+#home-heading, #video-play {
+  position: relative;
+  min-height: 200px;
+  background: url("../img/index/home-street.jpg");
+  background-repeat: no-repeat;
+  text-align: center;
+  color: #fff;
+}
+
+.dark-overlay {
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.7);
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+#video-play {
+  background: url("../img/index/stars.jpg");
+  background-position: 0 -300px;
+}
+
+#video-play a {
+  color: #fff;
+}
+
+#main-footer {
+  background: #000;
+  color: #fff;
+}
+
+#main-footer a {
+  color: #fff !important;
+}
+
+#page-header {
+  height: 200px;
+  background: url("../img/index/slider-design.jpg");
+  background-position: 0 -360px;
+  background-attachment: fixed;
+  color: fff;
+  border-bottom: 1px solid #eee;
+  padding-top: 50px;
+}
+
+#page-header h1,
+#page-header p {
+  color: #DEDEDE;
+}
+
+#about .img-rounded {
+  margin-top: -50px;
+  border-radius: 4%;
+  -webkit-border-radius: 4%;
+  -moz-border-radius: 4%;
+  -ms-border-radius: 4%;
+  -o-border-radius: 4%;
+  box-shadow: 6px 7px 22px 1px rgba(0, 0, 0, 0.65);
+}
+
+#icon-boxes .card {
+  background-color: #DEDEDE;
+}
+
+#services i {
+  padding-right: 10px;
+}
+
+#faq .card-header {
+  border: #444;
+}
+
+#faq .card-header a {
+  text-decoration: none;
+}
+
+#blog .card-body {
+  background: #F2F2F2;
+}
+
+#blog .card {
+  background: #F2F2F2;
+}
+
+#staff .fa {
+  padding-top: 10px;
+  font-size: 35px;
+  color: white;
+}
+
+#staff .fa:hover {
+  color: darkgray;
+}
