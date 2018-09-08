@@ -1,29 +1,87 @@
-.bg-black{
-  background: #000;
+$main-dark: #212121;
+$primary-dark: #371377;
+$primary-classic: #683AB7;
+$primary-light-plus: #5D4389;
+$primary-light-minus: #946BDB;
+
+
+.bg-black {
+  background: $main-dark;
   color: #fff;
 }
 
-#main-header{
-  img{
+#main-header {
+  .bg-main-dark {
+    background: #000;
+  }
+
+  .primary-dark {
+    background: $primary-dark;
+  }
+
+  .primary-classic{
+    background: $primary-classic;
+  }
+
+  .primary-light-plus{
+    background: $primary-light-plus;
+  }
+  .primary-light-minus{
+    background: $primary-light-minus;
+  }
+
+  img {
     width: 100%;
     height: 100%;
   }
 
-  .port-item{
+  .port-item {
     width: 30%;
 
-    .fa{
+    .fa {
       font-size: 2em;
     }
 
-    &:hover{
+    &:hover {
       opacity: 0.85;
       cursor: pointer;
     }
   }
 }
-@media(min-width: 1199px){
-  .port-item{
+
+@media(min-width: 1199px) {
+  .port-item {
     padding: 3em !important;
   }
+}
+
+#home{
+
+  .primary-dark {
+    background: $primary-dark;
+  }
+}
+
+#resume{
+
+  .primary-classic{
+    background: $primary-classic;
+  }
+}
+
+#work{
+
+  .primary-light-plus{
+    background: $primary-light-plus;
+  }
+}
+#contact{
+
+  .primary-light-minus{
+    background: $primary-light-minus;
+  }
+  
+}
+#main-footer{
+  background: #000;
 }

@@ -21,7 +21,7 @@
         </div>
         <div class="col-lg-8 col-md-7">
           <div class="d-flex flex-column">
-            <div class="p-5 bg-dark tex-white">
+            <div class="p-5 tex-white bg-main-dark">
               <div class="name d-flex flex-row justify-content-between align-items-center">
                 <h1 class="display-4 text-white">John Doe</h1>
                 <div class="text-white"><i class="fa fa-twitter"></i></div>
@@ -35,18 +35,18 @@
               Experienced Full Stack Web Developer
             </div>
 
-            <div>
+            <div class="text">
               <div class="d-flex flex-row text-white align-item-stretch text-center">
-                <div class="port-item p-4 bg-primary" data-toggle="collapse" data-target="#home">
+                <div class="port-item p-4 primary-dark" data-toggle="collapse" data-target="#home">
                   <i class="fa fa-home d-block"></i> Home
                 </div>
-                <div class="port-item p-4 bg-success">
+                <div class="port-item p-4 primary-classic">
                   <i class="fa fa-graduation-cap d-block" data-toggle="collapse" data-target="#resume"></i> Resume
                 </div>
-                <div class="port-item p-4 bg-warning">
+                <div class="port-item p-4 primary-light-plus">
                   <i class="fa fa-folder-open d-block" data-toggle="collapse" data-target="#work"></i> Work
                 </div>
-                <div class="port-item p-4 bg-danger">
+                <div class="port-item p-4 primary-light-minus">
                   <i class="fa fa-envelope d-block" data-toggle="collapse" data-target="#contact"></i> Contact
                 </div>
               </div>
@@ -58,7 +58,7 @@
 
     <!-- HOME -->
     <div id="home" class="collapse show">
-      <div class="card card-body bg-primary text-white py-5">
+      <div class="card card-body primary-dark text-white py-5">
         <h2>Welcome To My Page</h2>
         <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat fugit nulla maxime, laborum
           qui perferendis!</p>
@@ -71,30 +71,30 @@
         <hr>
         <h4>HTML</h4>
         <div class="progress mb-3">
-          <div class="progress-bar bg-success" style="width: 100%">100%</div>
+          <div class="progress-bar primary-dark" style="width: 100%">100%</div>
         </div>
         <h4>CSS</h4>
         <div class="progress mb-3">
-          <div class="progress-bar bg-success" style="width: 95%">95%</div>
+          <div class="progress-bar primary-dark" style="width: 95%">95%</div>
         </div>
         <h4>jQuery</h4>
         <div class="progress mb-3">
-          <div class="progress-bar bg-success" style="width: 70%">70%</div>
+          <div class="progress-bar primary-dark" style="width: 70%">70%</div>
         </div>
         <h4>JavaScript</h4>
         <div class="progress mb-3">
-          <div class="progress-bar bg-success" style="width: 50%">50%</div>
+          <div class="progress-bar primary-dark" style="width: 50%">50%</div>
         </div>
         <h4>React</h4>
         <div class="progress mb-3">
-          <div class="progress-bar bg-success" style="width: 45%">45%</div>
+          <div class="progress-bar primary-dark" style="width: 45%">45%</div>
         </div>
       </div>
     </div>
 
     <!-- RESUME -->
     <div id="resume" class="collapse">
-      <div class="card card-body bg-success text-white py-5">
+      <div class="card card-body primary-classic text-white py-5">
         <h2>My Resume</h2>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut laborum deserunt cumque doloribus.
           Quidem,saepe.</p>
@@ -158,7 +158,7 @@
 
     <!-- WORK -->
     <div id="work" class="collapse">
-      <div class="card card-body bg-warning py-5">
+      <div class="card card-body primary-light-plus py-5">
         <h3>My Portfolio</h3>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis, in!</p>
       </div>
@@ -214,7 +214,7 @@
 
     <!-- CONTACT -->
     <div id="contact" class="collapse">
-      <div class="card card-body bg-danger text-white py-5">
+      <div class="card card-body primary-light-minus text-white py-5">
         <h2>Contact</h2>
         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quae dignissimos inventore asperiores dicta sunt
           veritatis!</p>
@@ -226,7 +226,7 @@
 
           <div class="form-group">
             <div class="input-group input-group-lg">
-              <span class="input-group-addon bg-danger text-white">
+              <span class="input-group-addon primary-light-minus text-white">
                 <i class="fa fa-user"></i>
               </span>
               <input type="text" class="form-control bg-dark text-white" placeholder="Name">
@@ -235,7 +235,7 @@
 
           <div class="form-group">
             <div class="input-group input-group-lg">
-              <span class="input-group-addon bg-danger text-white">
+              <span class="input-group-addon primary-light-minus text-white">
                 <i class="fa fa-envelope"></i>
               </span>
               <input type="email" class="form-control bg-dark text-white" placeholder="Email">
@@ -244,18 +244,19 @@
 
           <div class="form-group">
             <div class="input-group input-group-lg">
-              <span class="input-group-addon bg-danger text-white">
+              <span class="input-group-addon primary-light-minus text-white">
                 <i class="fa fa-pencil"></i>
               </span>
               <textarea rows="5" type="text" class="form-control bg-dark text-white" placeholder="Message"></textarea>
             </div>
           </div>
-          <input type="submit" value="Submit" class="btn btn-danger btn-block btn-lg">
+          <input type="submit" value="Submit" class="btn primary-light-minus btn-block btn-lg">
         </form>
       </div>
     </div>
+
     <!-- FOOTER -->
-    <footer id="main-footer" class="p-5 bg-dark text-white">
+    <footer id="main-footer" class="p-5 main-dark text-white">
       <div class="row">
         <div class="col-md-6">
           <a href="#" class="btn btn-outline-light"><i class="fa fa-cloud"></i> Download Resume</a>

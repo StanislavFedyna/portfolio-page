@@ -1,6 +1,26 @@
 .bg-black {
-  background: #000;
+  background: #212121;
   color: #fff;
+}
+
+#main-header .bg-main-dark {
+  background: #000;
+}
+
+#main-header .primary-dark {
+  background: #371377;
+}
+
+#main-header .primary-classic {
+  background: #683AB7;
+}
+
+#main-header .primary-light-plus {
+  background: #5D4389;
+}
+
+#main-header .primary-light-minus {
+  background: #946BDB;
 }
 
 #main-header img {
@@ -25,4 +45,24 @@
   .port-item {
     padding: 3em !important;
   }
+}
+
+#home .primary-dark {
+  background: #371377;
+}
+
+#resume .primary-classic {
+  background: #683AB7;
+}
+
+#work .primary-light-plus {
+  background: #5D4389;
+}
+
+#contact .primary-light-minus {
+  background: #946BDB;
+}
+
+#main-footer {
+  background: #000;
 }
